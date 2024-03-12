@@ -1,0 +1,268 @@
+.color-menu {
+    background-color: #47da1b !important;
+    /* Los textos textos los ponemos en blanco para que haga contraste */
+    color: white !important;
+}
+
+.titulo-menu {
+    margin-left: 10px;
+}
+
+.form-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    min-height: 90vh !important;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Aumentamos el espacio entre los grupos de campos */
+    width: 100%;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    min-height: 100vh;
+}
+
+.SubmitButton {
+    width: 100%;
+    background-color: #051002de !important;
+    color: white !important;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000000;
+    margin-top: 10px;
+    transition: all 0.5s;
+    width: 30%;
+}
+
+.SubmitButton:hover {
+    background-color: #051002 !important;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.custom-navbar {
+    background: linear-gradient(135deg, #043409, #078309df, #043409);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px 0 2px 2px solid #fff;
+}
+
+.titulo-menu {
+    color: white;
+}
+
+.menu-item {
+    color: white !important;
+}
+
+.custom-navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffd700 !important;
+    /* Cambia el color del texto al pasar el ratón */
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: white;
+    /* Cambia el color del icono del botón */
+}
+
+.custom-navbar .navbar-toggler {
+    border: none;
+    /* Elimina el borde del botón */
+}
+
+.custom-navbar .navbar-collapse {
+    justify-content: flex-end;
+    /* Alinea los elementos del Navbar a la derecha */
+}
+
+.Navbar-Design {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    gap: 20px;
+}
+
+.ToggleBtn {
+    border-radius: 50%;
+    background-color: #ffbf00;
+    /* Color amarillo */
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    /* Espacio entre los botones */
+}
+
+.ToggleBtn:hover {
+    background: linear-gradient(135deg, #ffbf00, #ff9900);
+    /* Cambio de color amarillo a naranja */
+    transform: scale(1.1);
+}
+
+.ToggleBtnDelete {
+    background: linear-gradient(135deg, #ff4d4d, #ff3333);
+    /* Color rojo */
+}
+
+.ToggleBtnDelete:hover {
+    background: linear-gradient(135deg, #ff4d4d, #cc0000);
+    /* Cambio de color rojo a rojo oscuro */
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.register-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-card h2 {
+    margin-bottom: 10px;
+}
+
+.register-card p {
+    margin-bottom: 5px;
+}
+
+.ToggleBtn {
+    border-radius: 50%;
+    background-color: #ffbf00;
+    /* Color amarillo */
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    /* Espacio entre los botones */
+}
+
+.ToggleBtn:hover {
+    background: linear-gradient(135deg, #ffbf00, #ff9900);
+    /* Cambio de color amarillo a naranja */
+    transform: scale(1.1);
+}
+
+.ToggleBtnDelete {
+    background: linear-gradient(135deg, #ff4d4d, #ff3333);
+    /* Color rojo */
+}
+
+.ToggleBtnDelete:hover {
+    background: linear-gradient(135deg, #ff4d4d, #cc0000);
+    /* Cambio de color rojo a rojo oscuro */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #000;
+    color: #fff;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+.toggleBtn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.toggleBtn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.main-registers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}

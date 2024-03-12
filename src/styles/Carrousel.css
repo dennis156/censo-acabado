@@ -1,0 +1,128 @@
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: flex 0.7s ease-in-out, width 0.7s ease-in-out, height 0.7s ease-in-out;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel.active {
+    flex: 5 !important;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.image1 {
+    background-image: url('../assets/images/Otis1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    transition: all 700ms ease-in;
+}
+
+.image2 {
+    background-image: url('../assets/images/precio_banda.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    transition: all 700ms ease-in;
+}
+
+.image3 {
+    background-image: url('../assets/images/amlo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    transition: all 700ms ease-in;
+}
+
+.image4 {
+    background-image: url('../assets/images/Image4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    transition: all 700ms ease-in;
+}
+
+.image5 {
+    background-image: url('../assets/images/Image5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    transition: all 700ms ease-in;
+}
+
+
+/* Media query para dispositivos con ancho máximo de 480px */
+
+@media (max-width: 480px) {
+    .container-images {
+        width: 100vw;
+    }
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none;
+    }
+}
